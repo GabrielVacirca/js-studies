@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let nome = prompt("Qual é o seu nome?")
+        document.write(`Olá <strong>${nome}</strong>, seu nome tem ${nome.length} letras.`) //document.write é um método usado para escrever texto ou marcação HTML.
+        document.write(`Seu nome em maiusculas é: ${nome.toUpperCase()}</br>`)
+        document.write(`Seu nome em minisculas é ${nome.toLowerCase()}</br>`)
+
+
+        //Para a formatação de números, utiliza=se o método "toFixed(2)"
+        //Um método mais avançado, caso desejar transformar o valor na sua moeda, utiliza-se:
+        //.toLocaleString('pt-BR'; {style: 'currency', currency: 'BRL'})
+        //"typeoff" - mostra o tipo de dado.
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+    padding: auto;
+    font: normal 10pt arial;
+    background-color: rgb(175, 198, 224);
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(101, 116, 133);
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px black;
+    width: 350px;
+    min-height: 300;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    width: 45px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(84, 196, 130);
+}
+
+input, button {
+    margin-top: 10px;
+}
+
+textarea {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    
+}
