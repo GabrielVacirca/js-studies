@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="ex0015.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            Ano de nascimento: <input type="text" name="textAge" id="textAge" placeholder="Ex: 1994">
+            <br>Sexo:
+            <label for="sexChoose" style="margin-left: 2.5%;">Masculino</label>
+            <input type="radio" name="sexChoose" id="manChoose" value="homem">
+            <label for="sexChoose">Feminino</label>
+            <input type="radio" name="sexChoose" id="womanChoose" value="mulher">
+            <br><button type="button" style="margin-top: 5px;" onclick="verifyAge()">Verificar</button>
+
+        </div>
+        <div id="result">
+           Preencha os dados corretamente
+        </div>
+    </section>
+    <footer>
+        <p>&copy;made by Gabriel Vacirca</p>
+    </footer>
+    <script src="ex0015.js"></script>
+</body>
+</html>
